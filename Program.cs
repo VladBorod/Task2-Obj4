@@ -17,7 +17,7 @@ Console.Write("Enter third number: ");
 int numberC = int.Parse(Console.ReadLine());
 
 /*
-    Сравнение чисел с присвоением переменной temporaryMax.
+    Сравнение чисел с присвоением переменной temporaryMax,
     Сравнение temporaryMax с numberC,
     Вывод данных.
 */
@@ -25,12 +25,12 @@ int temporaryMax = 0;
 if (numberA > numberB)
 {
     // YES!
-    Console.WriteLine(numberA = temporaryMax);
+    Console.WriteLine(temporaryMax = numberA);
 }
 else
 {
     // No!
-    Console.WriteLine(numberB = temporaryMax);
+    Console.WriteLine(temporaryMax = numberB);
 }
 int Max = 0;
 if (numberC > temporaryMax)
